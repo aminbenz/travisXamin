@@ -1,0 +1,82 @@
+*{margin:0;
+    padding:0;
+    font-family:'Noto Sans SC', sans-serif;
+    }
+    li{list-style: none;}
+    a{text-decoration: none;}
+    
+    .nav{height:30px;border-bottom: 0px solid rgb(226, 226, 226);
+        font-size:12px;transition: color 0.1s;
+        color:#111;background-color:rgba(240, 240, 240, 0.63);}
+        .navcontent{margin:0 15px;}
+        .navcontent a {color:rgb(139, 138, 138);}
+        .nav ul{display:inline-block;padding: 7px;cursor: pointer;}
+        .navleft{float: left;}
+        .navright{float: right;padding:0 10px;}
+        .navlast{margin-right:10px;}
+        .nav ul:hover{color:rgb(20, 20, 20);border-bottom: 2px solid black;padding-bottom:4px;}     
+    
+#nav2 {margin: 0 auto;width: 100%;color:rgb(31, 31, 31);}
+#nav2 .nav2content{background-color: white;display: grid;grid-template-columns: 25% 50% 15% 10% ;width: 100%;height:65px;
+font-size:13.7px;font-weight: 500;}
+#nav2 .nav2left{float: left;padding:20px;margin:15px 0 0 50px;
+background-image: url(./logo/smal.png);background-repeat: no-repeat; transition: 0.3s;}
+#nav2 .nav2left h4{font-family: 'Gloria Hallelujah', cursive;font-size:30px;}
+#nav2 .nav2wost {text-align: center;}
+#nav2 .nav2wost li{display: inline-block;text-align: center;padding:20px;}
+#nav2 .nav2right{float: right;padding:10px;}
+#nav2 .nav2right input{padding-left:30px;background-color:rgb(240, 240, 240);color:rgb(202, 202, 202);
+border:0px solid rgb(214, 214, 214);border-radius: 50px;width:180px;height:45px;}
+#nav2 a{color:#111;}
+
+.login{width:330px; margin:0 auto;box-sizing: border-box;}
+.login .logo{text-align:center;margin-top:30px;}
+.login .logo img{background-image: url();}
+.login .h3login{text-align:center;margin:15px 0 30px 0;font-size:23px;text-transform: uppercase;letter-spacing:-1.5px;}
+.login .plogin{text-align:center;font-weight:200;font-size:13px; margin:10px 0;
+color:rgb(133, 133, 133);line-height:1.6;}
+
+.input {width:330px;margin:10px auto;}
+.input input{box-sizing: border-box;margin:15px auto;display: block;width:100%;height:40px;border:1px solid rgb(235, 235, 235);
+color:rgb(68, 68, 68);font-weight:300;border-radius:2px;padding:0 0 0 15px;}
+.childinput {}
+.checkboxcontent{display:inline-block;display: grid;grid-template-columns:10% 90%;margin: 15px 0 40px 0;}
+.input .checkbox{height:18px;width:20px;margin:0;}
+.input .pcheckbox{font-size:12px;font-weight:300;line-height:1.3;margin:auto 0;}
+.joinme{text-transform: uppercase;}
+.nam{display: inline-block;text-align: center;margin:0 auto 100px auto;width:100% ;}
+.nam span{color:rgb(126, 126, 126);font-size:13px;font-weight:300;}
+.nam a{color:#111;font-size:13px;text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{}
+.footer-item{background-color: rgb(15, 15, 15);color:#7e7e7e;height:300px;
+font-family: 'Noto Sans KR', sans-serif;}
+.footer-content{display: grid;grid-template-columns: repeat(5, 1fr);
+line-height: 30px;font-size: 11.6px;padding:50px 0px 0 30px ;}
+.footer-content .ul1{}
+.footer-content .ul1 a{color: white;}
+.footer-content .ul2 a{color:#7e7e7e;transition:0.2s;}
+.footer-content .ul3 a{color:#7e7e7e;transition:0.2s;}
+.footer-content li{}
+.footer-icon{grid-column: 5/7;position: absolute;right:100px;}
+.footer-icon li{display: inline-block;font-size:20px;}
+.footer-icon li a {padding:10px;}
+.footer-icon i{color: gray;transition: 0.2s;}
+.ulbold {font-weight: bold;color: white;}
+.footer-item a {color:white;}
+.footer-icon i:hover{color: white;}
+.footer-content .ul2 a:hover{color:white}
+.footer-content .ul3 a:hover{color:white}
